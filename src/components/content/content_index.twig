@@ -1,0 +1,12 @@
+{# Импортируем макрос для вставки иконок для дальнейшего использования #}
+{% import "../../macros/svg-icon.twig" as svgIcon %}
+
+<div class="content">
+    <h2>Содержание index.html страницы</h2>
+
+    <p>
+        {{ svgIcon.item("icon-important") }} {# Вставляем иконку, указываем название иконки #}
+        Файл <b>components/content/content_index.html.twig</b> импортровали в <b>pages/index.twig</b>
+    </p>
+    <img src="images/cat.png" alt="">
+</div>

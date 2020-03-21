@@ -1,0 +1,22 @@
+//Самый главный файл стилей...его мы не забываем импотрировать в главный файл index.js чтобы стили применились
+
+// Подключаем сначала переменные чтобы другие файлы scss их видели...
+// При имортах не обязательно указывать расширения файлов .scss
+//@import "scss/variables.scss";
+@import "scss/variables";
+
+//Это популярная библиотка со стилями готовых элементов, можно пока отключить, но все равно придется учить ее
+// будут по умолчанию Normalize.css и красивые шрифты
+//@import "~bootstrap/scss/bootstrap"; 
+
+// Подключаем все стили компонентов(отдельных кусков разметки)
+@import './components/header/header'; //стили для header блока
+@import './components/nav/nav';
+@import './components/footer/footer';
+@import './components/content/content';
+@import './components/lol/lol';
+
+//какие-то общие стили которые не знают куда деваться
+@import './scss/common';
+
+

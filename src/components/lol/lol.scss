@@ -1,0 +1,10 @@
+.lol {
+    position: absolute;
+    top:0;
+    right: -300px;
+    transition: 5s;
+}
+
+.lol--active {
+    right: 0;
+}

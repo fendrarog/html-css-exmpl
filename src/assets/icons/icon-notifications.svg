@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.597" height="24.988" viewBox="0 0 23.597 24.988">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#707172;stroke-miterlimit:10}.cls-2{fill:#124ca0}.cls-3{fill:#fff;font-size:10px;font-family:Roboto-Regular,Roboto}
+        </style>
+    </defs>
+    <g id="Group_455" data-name="Group 455" transform="translate(-1563.051 -15.796)">
+        <path id="Path_604" d="M1576.057 47.4h-.952v-7.146a4.624 4.624 0 0 0-4.624-4.624 4.624 4.624 0 0 0-4.624 4.624V47.4h-.94a1.366 1.366 0 0 0-1.366 1.366 1.366 1.366 0 0 0 1.366 1.366h11.14a1.366 1.366 0 0 0 1.366-1.366 1.366 1.366 0 0 0-1.366-1.366z" class="cls-1" data-name="Path 604" transform="translate(0 -13.211)"/>
+        <circle id="Ellipse_329" cx="1.261" cy="1.261" r="1.261" class="cls-1" data-name="Ellipse 329" transform="translate(1569.226 37.762)"/>
+        <circle id="Ellipse_330" cx="7.134" cy="7.134" r="7.134" class="cls-2" data-name="Ellipse 330" transform="translate(1572.381 15.796)"/>
+        <text id="_23" class="cls-3" data-name="23" transform="translate(1573.999 26.145)">
+            <tspan x="0" y="0">23</tspan>
+        </text>
+    </g>
+</svg>
