@@ -14,8 +14,10 @@ $footer-margin: 45px;
 
 // Обводит элемент рамками принимает цвет и толщину лини 
 
-@mixin bdr($clr,$w) {   
-    border: solid $w $clr;
+@mixin t($fz, $clr) {  
+    font-family: 'Open Sans', sans-serif; 
+    color: $clr;
+    font-size: $fz;
 }
 // Применение: @include bdr(red, 5px);
 

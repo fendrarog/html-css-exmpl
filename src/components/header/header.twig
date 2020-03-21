@@ -1,14 +1,11 @@
-{# Импортируем макрос для вставки иконок для дальнейшего использования #}
-{% import "../../macros/svg-icon.twig" as svgIcon %}
-
 <header class="header">
-    <h2 class="header-title">Общий header</h2>
 
-     
+   <a href="#" class="header-logo">
+        <span>S</span>mart  
+   </a>
 
-    <span class="header-text">Общий header, который одинаковый на всех страницах сайта</span>
-    <p>
-        {{ svgIcon.item("icon-important") }} {# Вставляем иконку, указываем название иконки #}
-        Файл <b>components/header.twig</b> импортровали в общий каркас сайта <b>layouts/base.twig</b>
-    </p>
+    <div class="menu">
+        <div class="menu-line"></div>
+    </div>
+   
 </header>

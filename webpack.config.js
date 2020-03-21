@@ -8,8 +8,7 @@ module.exports = {
 //  1) Входные файлы для страниц.В них можно закидывать стили(css,scss), пути к картинкам и шрифтам, другой js код, библиотеки установленные в проекте
 //  Их сейчас 2, для каждой страницы html
     entry: {
-        main: './src/js/index.js',
-        second: './src/js/page1.js'
+        main: './src/js/index.js'
     },
 //  2)Указываем относительно какой папки будет искаться стартовая страница index.html в браузере при dev режиме...также это папка создается в production режиме и в ней лежит все готовое, заебатое...
     // Когда мы запускаем команду npm run dev, открывается страница в браузере http://localhost:9005/index.html, в нашем случае
@@ -80,13 +79,8 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({ ///указываем пути к входным файлам html(twig)
             chunks: ['main'],
-            template: 'src/pages/index.twig',
+            template: 'src/layouts/base.twig',
             filename: 'index.html',
-        }),
-        new HtmlWebpackPlugin({ ///указываем пути к входным файлам html(twig)
-            chunks: ['second'],
-            template: 'src/pages/page1.twig',
-            filename: 'page1.html'
         }),
         new ProvidePlugin({ //подключает jquery без импорта в главном файле index.js
             $: "jquery",

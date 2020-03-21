@@ -1,3 +1,52 @@
 .header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+
+    &-logo {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 37.7px;
+        text-decoration: none;
+        color: #494949;
+        border: solid 3px #706b73;
+        padding: 0px 17px 0px 14px;
+
+        span {
+            color: #ff5c36;
+        }
+    }
+}
+.menu {
+    cursor: pointer;
+    //margin-top: -15px;
+    height: 20px;
+
+    &-line {
+        width: 35px;
+        height: 4px;
+        background: #706b73;
+        border-radius: 2px 2px 2px 2px;
+        position: relative;
+            
+        
+
+        &::before, &::after {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 35px;
+            height: 4px;
+            background: #706b73;
+            border-radius: 2px 2px 2px 2px;
+        }
+
+        &::before {
+            top: 8px;
+        }
+
+        &::after {
+            top: 16px; 
+        }
+    }
 }

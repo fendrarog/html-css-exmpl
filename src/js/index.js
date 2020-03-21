@@ -8,7 +8,5 @@ import "../components/lol/lol.js";
 
 
 
-//Импортируем иконки
-import "../assets/icons/icon-notifications.svg";
-import "../assets/icons/icon-important.svg";
+
 

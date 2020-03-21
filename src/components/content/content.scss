@@ -1,0 +1,79 @@
+.content {
+    
+
+    &-top {
+        @media (max-width: 520px) {
+            text-align: left;
+        }
+        margin: 0 auto;
+        max-width: 710px;
+        text-align: center;
+        .content-title {
+            span {
+                color: #ff5c36;
+            }
+        }
+
+    }
+
+    &-title {
+        @include t(50px, #6b6b6b);
+        
+    }
+    &-text {
+        @include t(16px, #6b6b6b);
+    }
+    .form {
+        box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.3);
+        background: #fff;
+        max-width: 335px;
+        padding: 20px;
+        margin-top: 110px;
+
+        @media (max-width: 1140px) {
+            margin: 110px auto 0;
+        }
+
+        input, textarea, button {
+            display: block;
+            resize: none;
+        }
+        input, textarea {
+            border: none;
+            border-bottom: 1px solid #c7c7c7;
+            padding-bottom: 5px;
+            @include t(15px, #6b6b6b);
+            width: 100%;
+        }
+        textarea {
+            margin-top: 30px;
+            height: 85px;
+            padding: 0;
+        }
+        input {
+            padding-top: 40px;
+        }
+        &-title {
+            @include t(20px, #494949);
+            text-align: center;
+            span {
+                color: #ff5c36;
+            }
+        }
+        &-btn {
+
+            @media (max-width: 440px) {
+                padding: 0 35px;
+                line-height: 3;
+            }
+
+            background: #ff5c36;
+            @include t(15px, #ffff);
+            padding: 0 70px;
+            margin-top: 10px;
+            line-height: 3.7;
+            border-radius: 30px;
+            border: none;
+        }
+    }
+}
